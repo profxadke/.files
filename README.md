@@ -8,7 +8,7 @@ My personal favorite **[dot]** files which I would love to share!
 ##### Stuff you'll need:
 
 - [ohmyzsh](https://ohmyz.sh/#install)
-- [neofetch](https://github.com/dylanaraps/neofetch)
+- [fastfetch](https://github.com/fastfetch-cli/fastfetch?tab=readme-ov-file#installation)
 - [antidote](https://getantidote.github.io/install)
 - [lsd](https://github.com/Peltoche/lsd)
 - [chroma](https://github.com/alecthomas/chroma) / pygmentize
