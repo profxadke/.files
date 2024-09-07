@@ -1,3 +1,6 @@
+ZSH_THEME=
+DISABLE_AUTO_UPDATE="true"
+
 alias vim="nvim"
 alias ls="lsd"
 alias cat="ccat"
@@ -12,3 +15,5 @@ export ZSH_COLORIZE_CHROMA_FORMATTER=terminal16m
 
 bindkey '^[[1;5A' history-substring-search-up
 bindkey '^[[1;5B' history-substring-search-down
+
+export ZSH="/Users/$USER/Library/Caches/antidote/https-COLON--SLASH--SLASH-github.com-SLASH-ohmyzsh-SLASH-ohmyzsh/"

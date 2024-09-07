@@ -1,28 +1,22 @@
 # NeoFetch, for fanciness..
-neofetch --ascii ~/.neo
+fastfetch -l ~/.neo
 
 
 # Profile variables
 source ~/.profile
 
 
-# Load Antibody
-source <(antibody init)
-export ANTIBODY_HOME="$(antibody home)"
+# Load Antidote
+source $HOMEBREW_PREFIX/opt/antidote/share/antidote/antidote.zsh
 
 
-# Useful plugins, out of Oh-My-ZSH
-antibody bundle < ~/.plugins.zsh
+# Useful plugins, including Oh-My-ZSH ones.
+antidote load
 
 
-# Load Oh My Zsh
-source ~/.oh-my.zsh
-antibody bundle robbyrussell/oh-my-zsh
-
-
-# A theme for an eyecandy kid..
-antibody bundle romkatv/powerlevel10k
-source ~/.p9k.zsh
+# A theme for an eyecandy kid..  TODO
+# antibody bundle romkatv/powerlevel10k
+# source ~/.p9k.zsh
 
 
 # Misc. configs
