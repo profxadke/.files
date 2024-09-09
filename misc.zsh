@@ -6,7 +6,8 @@ alias ls="lsd"
 alias cat="ccat"
 alias less="cless"
 alias r13="\\tr 'A-Za-z' 'N-ZA-Mn-za-m'"
-alias copy="xclip -selection clipboard -i"                                                                         
+# alias copy="xclip -selection clipboard -i" 
+alias copy=pbcopy
 alias tree="ls --tree"                                                                                             
 alias sl="ls"
 
